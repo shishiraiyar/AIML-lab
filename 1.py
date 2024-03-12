@@ -5,7 +5,7 @@ class TicTacToe:
     BOARD_SIZE = 9 # 3x3 is represented as a 1d array of size 9 (for simplicity)
 
     def __init__(self):
-        self.board = [' ' for _ in range(self.BOARD_SIZE)]
+        self.board = [' ' for i in range(self.BOARD_SIZE)]
         
     def evaluate(self):
         scores = {
