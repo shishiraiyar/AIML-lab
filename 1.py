@@ -23,10 +23,7 @@ class TicTacToe:
         return 0
     
     def isBoardFull(self):
-        if self.board.count(' ') == 0:
-            return True
-        else:
-            return False
+        return (self.board.count(' ') == 0)
         
     # Only returns the evaluation. getComputerMove is doing the actual move selection
     def miniMax(self, player):
